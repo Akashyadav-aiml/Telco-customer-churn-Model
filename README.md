@@ -14,7 +14,7 @@ python -m venv .venv
 pip install -r requirements-dev.txt
 ```
 
-The CSV isn't committed. To re-run the notebook, download `WA_Fn-UseC_-Telco-Customer-Churn.csv` from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn) into `data/`. The trained model is already in `models/`, so prediction works without it.
+The dataset is included as `data/WA_Fn-UseC_-Telco-Customer-Churn.csv` (from [Kaggle](https://www.kaggle.com/datasets/blastchar/telco-customer-churn)), so the notebook runs as-is. The trained model is already in `models/`.
 
 ## Usage
 
